@@ -1,0 +1,31 @@
+header .logo-container{
+    width: 75px;
+    height: 75px;
+
+}
+
+header .logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main{
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+main .hero{
+    width: 100%;
+}
+
+.hero .hero__video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
