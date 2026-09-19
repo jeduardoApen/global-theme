@@ -1,3 +1,9 @@
+header .menu_button{
+    border: none;
+    color: green;
+    font-size: 1.5rem;
+}
+
 header .logo-container{
     width: 160px;
     /* height: 100px; */
@@ -102,14 +108,14 @@ main .mana{
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
 .mana .mana_video{
     width: 17rem;
     height: 17rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 1rem;
     background-color: blue;
     border-radius: 10rem;
@@ -138,3 +144,29 @@ main .mana{
     padding: 0.5rem 1rem;
 
 }
+
+
+main .start{
+    width: 100%;
+    height: 15rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.start_container .start_container__button{
+    width: 20rem;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    border-radius: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #334155;
+}
+
