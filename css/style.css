@@ -1,6 +1,8 @@
 header .logo-container{
-    width: 75px;
-    height: 75px;
+    width: 160px;
+    /* height: 100px; */
+    margin: 0 2rem;
+
 
 }
 
@@ -34,33 +36,43 @@ main .brand{
     width: 100%;
     /* height: 350px; */
     height: auto;
-    border: 1px solid red;
-    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin: 2rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
+}
 
+.brand .brand__title{
+    font-size: 1.5rem;
+    color: green;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 80%;
 }
 
 
 .brand .brand__container{
     width: 70%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    gap: 1rem;
 }
 
 .brand__container .bran__item{
     /* width: 30%; */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 }
 
 .brand-test__image{
@@ -72,4 +84,57 @@ main .brand{
 
 .bran__item .bran__text{
     text-align: center;
+}
+
+
+.brand__container .bran__bar{
+    width: 0.5rem;
+    height: 15rem;
+    background-color: black;
+    display: none;
+}
+
+main .mana{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+
+.mana .mana_video{
+    width: 17rem;
+    height: 17rem;
+    border: 1px solid blue;
+    margin: 1rem;
+    background-color: blue;
+    border-radius: 10rem;
+}
+
+.mana .mana_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.mana_content .mana_title__container h3{
+    text-align: center;
+    color: green;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.mana_content .mana_desc__container{
+    text-align: justify;
+    font-size: 1rem;
+    color: maroon;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+
 }
