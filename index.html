@@ -1,53 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <div class="logo-container">
-                        <img src="https://barrier-pork-notebooks-local.trycloudflare.com/wp-content/uploads/2023/08/Logo-Small-scaled.jpg" alt="Logo" class="logo">
-                    </div>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn btn-success ms-lg-3">Contacto</a>
-                </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="logo-container">
+              <img
+                src="https://barrier-pork-notebooks-local.trycloudflare.com/wp-content/uploads/2023/08/Logo-Small-scaled.jpg"
+                alt="Logo"
+                class="logo"
+              />
             </div>
-        </nav>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-success ms-lg-3">Contacto</a>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="hero">
-            <video class="hero__video" autoplay muted loop playsinline>
-                <source src="https://videos.files.wordpress.com/twN1XBBQ/home-video-new-v2.mp4" type="video/mp4">
-            </video>
-        </section>
+      <section class="hero">
+        <video class="hero__video" autoplay muted loop playsinline>
+          <source
+            src="https://videos.files.wordpress.com/twN1XBBQ/home-video-new-v2.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </section>
+
+      <section class="brand">
+        <div class="brand__container">
+          <div class="bran__item">
+            <div class="bran__image">
+
+                <!-- <img src="" alt=""> -->
+                 <div class="brand-test__image"></div>
+            </div>
+            <div class="bran__text">
+              <p>Save money and time 
+                <br>
+                in the management of your properties
+            </p>
+            </div>
+          </div>
+          <div class="bran__bar"></div>
+          <div class="bran__item"></div>
+          <div class="bran__bar"></div>
+          <div class="bran__item"></div>
+        </div>
+      </section>
     </main>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="./js/app.js"></script>
-</body>
+  </body>
 </html>
